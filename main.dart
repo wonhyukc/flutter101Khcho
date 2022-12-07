@@ -1,4 +1,4 @@
-// 6. 첫 컬럼 SizedBox 로 감싸기 == 첫줄 간격 설정
+// 7. 두 번째 textbox를 SizedBox 로 감싸기 == 첫줄 간격 설정
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
-            Text("안녕하세요!"),
+            SizedBox(height: 50, child: Text("안녕하세요!")),
             Text("전 고양이를 좋아합니다."),
           ],
         ),
