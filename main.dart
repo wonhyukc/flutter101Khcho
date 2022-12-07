@@ -1,4 +1,4 @@
-// 1. 가장 기초 골격: 텅빈 화면의 앱이 등장한다
+// 2. AppBar에 제목을 추가
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,8 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('플러터 스터디'),
+        ),
+        body: Column(),
+      ),
     );
   }
 }
-
