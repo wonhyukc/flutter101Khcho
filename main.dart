@@ -1,4 +1,4 @@
-// 3. 첫 column 작성
+// 4. column 모두 작성
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,6 +23,8 @@ class MyApp extends StatelessWidget {
                 Text("2022"),
               ],
             ),
+            Text("안녕하세요!"),
+            Text("전 고양이를 좋아합니다."),
           ],
         ),
       ),
