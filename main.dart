@@ -1,4 +1,4 @@
-// 4. column 모두 작성
+// 5. mainAxisAlignment: 위치 지정하기
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,8 +16,10 @@ class MyApp extends StatelessWidget {
           title: Text('플러터 스터디'),
         ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Text("코딩백조"),
                 Text("2022"),
