@@ -1,4 +1,4 @@
-// 2. AppBar에 제목을 추가
+// 3. 첫 column 작성
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,16 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('플러터 스터디'),
         ),
-        body: Column(),
+        body: Column(
+          children: [
+            Row(
+              children: [
+                Text("코딩백조"),
+                Text("2022"),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
